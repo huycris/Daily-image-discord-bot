@@ -32,8 +32,8 @@ Email: jgracia9988@gmail.com
 
 export const sendRandomPhotoMessage = // Message for the function sendRandomPhoto (called by the cron)
     {
-        msg1: "Here's your pic LOL",
-        msg2: "The photo was taken on the day: "
+        //msg1: "Here's your pic LOL",
+        //msg2: "The photo was taken on the day: "
     };
 
 export const welcomeOwnerPrivatelyMessage = // Message for the function welcomeOwnerPrivately
