@@ -9,7 +9,7 @@ import {Message} from "discord.js";
 import permissionErrorHandler from "../errors/permission-error-handler";
 
 export default function checkIfUserIsAdmin(message: Message): boolean {
-    if (message.member.hasPermission("ADMINISTRATOR")) {
+    if (message.member.hasPermission("SEND_MESSAGES")) {
         return true;
     } else {
         const msgToBeSend = ':interrobang:This command can only be executed by an **administrator**!';
